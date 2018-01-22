@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <cmath>
 #include <algorithm>
+#include <ctype.h>
 
 using namespace std;
 
