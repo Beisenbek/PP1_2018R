@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <stdio.h>
 #include <cmath>
@@ -8,14 +7,9 @@
 using namespace std;
 
 int main(){
-	
-	int x;
-	cin >> x;
 
-	do{
-		cout << x % 10 << endl;
-		x = x / 10;
-	}while(x > 0);
+	freopen("input.txt","r",stdin);
+
 	
 	return 0;
 }
