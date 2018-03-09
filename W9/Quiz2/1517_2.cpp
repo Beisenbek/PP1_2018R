@@ -12,7 +12,7 @@ int main(){
 	bool found = false;
 	cin >> x;
 
-	for(int i = 1; i *  i < x; ++i){
+	for(int i = 1; i * i < x; ++i){
 		int j2 = x - i * i;
 		int k = floor(sqrt(j2));
 		if(k * k == j2){
