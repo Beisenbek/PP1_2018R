@@ -15,6 +15,7 @@ int main(){
 	else if(n == 3 || n == 4 || n == 5) cout << "spring";
 	else if(n == 6 || n == 7 || n == 8) cout << "summer";
 	else if(n == 9 || n == 10 || n == 11) cout << "autumn";
+	else cout << "NO";
 	
 	return 0;
 }
