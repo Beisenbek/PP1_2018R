@@ -13,7 +13,17 @@ using namespace std;
 
 int main(){
 
-	freopen("input.txt","r",stdin);
+	
+	int n;
+
+	cin >> n;
+
+	int a[n];
+
+	for(int i = n; i >= 1; --i){
+		int d = pow(2,i);
+		cout << d << " ";
+	}
 
 	
 	return 0;

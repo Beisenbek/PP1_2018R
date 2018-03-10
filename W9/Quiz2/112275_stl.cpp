@@ -13,7 +13,20 @@ using namespace std;
 
 int main(){
 
-	freopen("input.txt","r",stdin);
+	
+	int n;
+
+	cin >> n;
+
+	vector<int> v;
+
+	for(int i = n; i >= 1; --i){
+		v.push_back(pow(2,i));
+	}
+
+	for(size_t i = 0; i < v.size(); ++i){
+		cout << v[i] << " ";
+	}
 
 	
 	return 0;

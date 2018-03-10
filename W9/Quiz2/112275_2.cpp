@@ -13,7 +13,22 @@ using namespace std;
 
 int main(){
 
-	freopen("input.txt","r",stdin);
+	
+	int n;
+
+	cin >> n;
+
+	int a[n];
+	int k = 0;
+
+	for(int i = n; i >= 1; --i){
+		a[k] = pow(2,i);
+		k++;
+	}
+
+	for(int i = 0; i < n; ++i){
+		cout << a[i] << " ";
+	}
 
 	
 	return 0;
