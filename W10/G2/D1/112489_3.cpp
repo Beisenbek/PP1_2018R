@@ -11,18 +11,6 @@
 
 using namespace std;
 
-bool isPrime(int x){
-	int k = 0;
-
-	for(int i = 1; i <= x; ++i){
-		if(x % i == 0) k++;
-	}
-
-	if(k == 2) return true;
-
-	return false;
-}
-
 int main(){
 
 	int n;
