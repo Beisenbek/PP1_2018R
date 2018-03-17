@@ -31,18 +31,10 @@ int main(){
 	int i = 2;
 
 	while(n != 0){
-
-		int k = 0;
-
-		for(int j = 1; j <= i; ++j){
-			if(i % j == 0) k++;
-		}
-
-		if(k == 2){
+		if(isPrime(i)){
 			n--;
 			cout << i << " ";
 		}
-
 		i++;
 	}
 	
