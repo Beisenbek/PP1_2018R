@@ -22,18 +22,18 @@ int main(){
 	set<char> s;
 
 	for(size_t i = 0; i < a.size(); ++i){
-		s.insert(a[i]);
+		s.insert(toupper(a[i]));
 	}
 
 	for(size_t i = 0; i < b.size(); ++i){
-		s.insert(b[i]);
+		s.insert(toupper(b[i]));
 	}
 	
 	bool ok = true;
 
-	for(char c = 'a'; c <='z'; ++c){
+	for(char c = 'A'; c <='Z'; ++c){
 		if(s.find(c) == s.end()){
-			cout << char(c - 32);
+			cout << c;
 			ok = false;
 		}
 	}
