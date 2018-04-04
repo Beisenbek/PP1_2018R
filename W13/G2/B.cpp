@@ -20,7 +20,8 @@ bool c2(string x){
 	for(int i = 0; i < x.size(); ++i){
 		if(x[i] <= '9' && x[i] >= '0') cnt++;
 	}
-	return cnt >= 3;
+	if(cnt >= 3) return true;
+	return false;
 }
 
 bool c3(string x){
